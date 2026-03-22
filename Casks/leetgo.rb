@@ -3,7 +3,7 @@ cask "leetgo" do
   name "leetgo"
   desc "leetgo is a command line tool for leetcode.com. It can help you to login, submit, test, and view your submissions."
   homepage "https://github.com/javenlee99/leetgo"
-  version "1.4.11-custom"
+  version "1.4.12-custom"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "leetgo" do
   on_macos do
     on_intel do
       url "https://github.com/javenlee99/leetgo/releases/download/v#{version}/leetgo_macOS_x86_64.tar.gz"
-      sha256 "51178b077f9da357e4a288301a1f55dd1361cac737bf7f0aedc49094c42b1ed3"
+      sha256 "ed3f89af5b0596c17d1c45f960b19ca9f71a6923e601745bb7b496a08cdb84e6"
     end
     on_arm do
       url "https://github.com/javenlee99/leetgo/releases/download/v#{version}/leetgo_macOS_arm64.tar.gz"
-      sha256 "479c8f1e95ea69ac3f694ec41e5ad7fb8aa67e8aa7934b075705e24c98b734d0"
+      sha256 "3c9740ce8a734d489192dda5f4c99f9be5dacf7fa248bf000d47df41228d862c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/javenlee99/leetgo/releases/download/v#{version}/leetgo_linux_x86_64.tar.gz"
-      sha256 "568e86db2f4284d986289741ffa6e5c7a34b65e9fed1f879e5ba2614536940cf"
+      sha256 "a51e7e6353ae33783a6d259f9f25ebeba9d871384ba2c766debeb2b104d17e0d"
     end
     on_arm do
       url "https://github.com/javenlee99/leetgo/releases/download/v#{version}/leetgo_linux_arm64.tar.gz"
-      sha256 "3878f5cce6d3c0ec736fe04e58bb14118ab175af025b9cb1c2f4c8704a4ebb06"
+      sha256 "603d6b4f1dee4731560a03bacca42017ff44939b61384525166966f2ff0d75ae"
     end
   end
 
